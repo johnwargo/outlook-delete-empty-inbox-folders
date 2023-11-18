@@ -8,7 +8,6 @@ A Windows application (written in Delphi (Object Pascal) that deletes all empty 
 
 ## Tasks
 
-- [ ] Update Wiki page (docs)
 - [ ] Add About page
 - [ ] Build installer (https://jrsoftware.org/ishelp/)
 - [ ] Publish to Windows store
@@ -85,7 +84,7 @@ The application only works with the default Outlook profile on the system. It's 
 The application was only tested against a local PST file (not an Offline Outlook Data file (`.ost`) from Microsoft Exchange). It may work with an Offline Outlook Data file, I truly have no idea.
 
 
-## Requirements
+## Build Requirements 
 
 The application uses several [Konopka Signature VCL Controls](https://www.componentsource.com/product/konopka-signature-vcl-controls) formerly known as Raize Components. They ship free with Delphi now, so you will just have to install the package using the GetIt Package Manager to build this app on your own.
 
