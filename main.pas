@@ -171,7 +171,8 @@ begin
   end;
 
   frmMain.lstFolders.Clear;
-  folderCounter := 0;
+  // frmMain.lblFolderCount.caption := 'No Empty Folders';
+  folderCounter := -1;
   UpdateFolderCounter();
   Screen.Cursor := crHourGlass;
   outlook := CreateOleObject('Outlook.Application');
@@ -180,6 +181,13 @@ begin
   ProcessFolders(inbox.Folders, 'Inbox\', doDelete);
   outlook := Unassigned;
   Screen.Cursor := crDefault;
+  if frmMain.lstFolders.Count < 1 then begin
+    MessageDlg('No empty folders in the Outlook Inbox', mtInformation,
+      [mbOk], 0, mbOk);
+  end else begin
+    // enable the Delete button
+    SetStartButtonState(True);
+  end;
 end;
 
 function GetOutlookApplication: OutlookApplication;
@@ -205,7 +213,6 @@ procedure TfrmMain.btnAnalyzeClick(Sender: TObject);
 begin
   LogMessage('Analyze button clicked');
   LoadOutlookFolders(false);
-  SetStartButtonState(True);
 end;
 
 procedure TfrmMain.btnCloseClick(Sender: TObject);
