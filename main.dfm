@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
   Left = 0
   Top = 0
-  Caption = 'Delete Empty Inbox Folders'
+  Caption = 'Outlook Delete Empty Inbox Folders'
   ClientHeight = 442
   ClientWidth = 628
   Color = clBtnFace
@@ -57,6 +57,7 @@ object frmMain: TfrmMain
       Width = 118
       Height = 19
       BorderWidth = 0
+      Transparent = False
       Align = alRight
       Color = clHighlight
       ParentColor = False
@@ -566,7 +567,7 @@ object frmMain: TfrmMain
   end
   object SplashTimer: TTimer
     Enabled = False
-    Interval = 3000
+    Interval = 2000
     OnTimer = SplashTimerTimer
     Left = 40
     Top = 216

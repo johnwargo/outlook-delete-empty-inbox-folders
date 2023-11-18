@@ -19,7 +19,7 @@ Outlook users that leverage Outlook's Archive feature to move older items to an 
 
 This application is a simple utility for Microsoft Windows that automatically deletes all empty Inbox folders in a user's default Outlook Profile. 
 
-When you start the application, a splash screen appears for three seconds as shown below.
+When you start the application, a splash screen appears for two seconds as shown below.
 
 ![Application Splash Screen](/images/figure-01.png)
 

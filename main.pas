@@ -66,7 +66,7 @@ type
 
 const
   HelpURL: string =
-    'https://github.com/johnwargo/outlook-delete-empty-inbox-folders-delphi/wiki/Delete-Empty-Folders-Help';
+    'https://github.com/johnwargo/outlook-delete-empty-inbox-folders/wiki/Delete-Empty-Inbox-Folders-Help';
 
 var
   frmMain: TfrmMain;
