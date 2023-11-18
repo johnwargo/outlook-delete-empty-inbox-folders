@@ -9,7 +9,6 @@ A Windows application (written in Delphi (Object Pascal) that deletes all empty 
 ## Tasks
 
 - [ ] Add About page
-- [ ] Build installer (https://jrsoftware.org/ishelp/)
 - [ ] Publish to Windows store
 
 ## About the Application
