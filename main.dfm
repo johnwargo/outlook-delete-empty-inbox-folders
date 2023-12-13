@@ -28,8 +28,8 @@ object frmMain: TfrmMain
     BorderWidth = 0
     Color = 15987699
     TabOrder = 0
-    ExplicitTop = 414
-    ExplicitWidth = 622
+    ExplicitTop = 415
+    ExplicitWidth = 626
     object lblFolderCount: TRzStatusPane
       Left = 100
       Top = 0
@@ -161,8 +161,8 @@ object frmMain: TfrmMain
     ShowHint = True
     Sorted = True
     TabOrder = 2
-    ExplicitWidth = 622
-    ExplicitHeight = 361
+    ExplicitWidth = 626
+    ExplicitHeight = 362
   end
   object PanelHeader: TRzPanel
     Left = 0
@@ -174,7 +174,7 @@ object frmMain: TfrmMain
     BorderOuter = fsNone
     Color = 15987699
     TabOrder = 3
-    ExplicitWidth = 622
+    ExplicitWidth = 626
     object Label1: TLabel
       Left = 10
       Top = 0

@@ -17,6 +17,8 @@ uses
   // Outlook stuff
   ComObj, Outlook2010,
 
+  CodeSiteLogging,
+
   // Raize Components
   RzPanel, RzButton, RzEdit, RzLstBox, RzSplit, RzLaunch, RzStatus,
 
@@ -291,3 +293,5 @@ begin
 end;
 
 end.
+
+
