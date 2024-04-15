@@ -50,6 +50,8 @@ type
     SplashPanel: TRzPanel;
     SplashImage: TImage;
     SplashTimer: TTimer;
+    RzRegIniFile: TRzRegIniFile;
+    RzFormState: TRzFormState;
     procedure btnDeleteClick(Sender: TObject);
     procedure btnCloseClick(Sender: TObject);
     procedure FormActivate(Sender: TObject);
@@ -269,6 +271,7 @@ end;
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
+  RzRegIniFile.Path := 'Software\John Wargo\Outlook Delete Empty Inbox Folders';
   // Hide the existing UI
   Toolbar.Visible := false;
   StatusBar.Visible := false;

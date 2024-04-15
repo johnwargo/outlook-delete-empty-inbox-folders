@@ -1,14 +1,15 @@
 [Setup]
 AppName=Outlook Delete Empty Inbox Folders
-AppVersion=.05
+AppVersion=0.0.7
 WizardStyle=modern
-DefaultDirName={autopf}\Outlook Utils
+DefaultDirName={autopf}\Outlook Utilities
 DefaultGroupName=Outlook Utilities
 UninstallDisplayIcon={app}\DeleteEmptyFolders.exe
 Compression=lzma2
 SolidCompression=yes
 OutputDir=installer
-OutputBaseFilename=SetupDeleteEmptyFolders
+OutputBaseFilename=DeleteEmptyFoldersSetup
+SetupIconFile=DeleteEmptyFolders_Icon.ico
 
 [Files]
 Source: "Win64\Release\DeleteEmptyFolders.exe"; DestDir: "{app}"
